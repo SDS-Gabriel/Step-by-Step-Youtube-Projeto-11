@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">MeuPortfólio</div>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Sobre</a></li>
+            <li><a href="#">Projetos</a></li>
+            <li><a href="#">Contato</a></li>
+        </ul>
+    </nav>
+
+    <section class="home">
+        <div class="text-2">Eu sou um <span class="typing"></span></div>
+    </section>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"></script>
+    <script>
+        var typed = new Typed(".typing", {
+            strings: ["Desenvolvedor Web", "Designer", "Freelancer"],
+            typeSpeed: 100,
+            backSpeed: 60,
+            loop: true
+        });
+    </script>
+</body>
+</html>

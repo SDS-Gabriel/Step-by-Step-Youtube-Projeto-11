@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+* { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Poppins', sans-serif; }
+
+.navbar { padding: 20px 50px; display: flex; justify-content: space-between; background: #111; color: #fff; }
+.navbar ul { display: flex; list-style: none; }
+.navbar ul li a { color: #fff; margin: 0 15px; text-decoration: none; }
+
+.home { 
+    height: 100vh; 
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    background: #f1f1f1; 
+}
+
+.text-2 { font-size: 40px; font-weight: 600; }
+
+/* O efeito da "barra" piscante no texto */
+.typing { color: #dc143c; }
